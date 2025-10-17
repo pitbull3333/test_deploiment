@@ -1,0 +1,14 @@
+@media screen and (max-width:992px){
+	header section h3{
+		display:none;
+	}
+	#menu_deroulant{
+		height:5vh;
+		aspect-ratio:1 / 1;
+		left:5vh;
+		position:absolute;
+		transform:rotate(45deg);
+		cursor:pointer;
+		background-color:var(--color_h1_losange_retour);
+	}
+}
